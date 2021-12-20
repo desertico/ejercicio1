@@ -22,9 +22,9 @@ jobs:
               command: |
                   . venv/bin/activate
                   make 
-                  mkdir DEPLOY-$(date +%Y-%m-%d +%H:%M:%S)
-                  cp prueb* DEPLOY-$(date +%Y-%m-%d +%H:%M:%S)
-                  cd DEPLOY-$(date +%Y-%m-%d +%H:%M:%S)
+                  mkdir DEPLOY-$(date +%Y-%m-%d-%H:%M:%S)
+                  cp prueb* DEPLOY-$(date +%Y-%m-%d-%H:%M:%S)
+                  cd DEPLOY-$(date +%Y-%m-%d-%H:%M:%S)
                   pwd
                   ls -ltr
                   ./prueba
