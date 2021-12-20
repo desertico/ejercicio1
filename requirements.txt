@@ -1,0 +1,15 @@
+argon2-cffi==21.1.0
+flake8
+pytest
+attrs==19.3.0
+Automat==0.8.0
+backcall==0.2.0
+backports.entry-points-selectable==1.1.1
+bleach==4.1.0
+calculator
+blinker==1.4
+certifi==2019.11.28
+cffi==1.15.0
+chardet==3.0.4
+Click==7.0
+colorama==0.4.3
