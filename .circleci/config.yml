@@ -25,4 +25,6 @@ jobs:
                   mkdir DEPLOY-$(date +%Y-%m-%d)
                   cp prueb* DEPLOY-$(date +%Y-%m-%d)
                   cd DEPLOY-$(date +%Y-%m-%d)
+                  pwd
+                  ls -ltr
                   ./prueba
